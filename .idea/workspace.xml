@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e0d7fc-37c3-42dd-afa3-14bddec6b9c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lru_cache/lrucache.go" beforeDir="false" afterPath="$PROJECT_DIR$/lru_cache/lrucache.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,41 +16,55 @@
     <favorites_list name="lru_cache" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lru_cache/lrucache.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#19#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/container/list/list.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-              <folding>
-                <element signature="e#14#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lru_cache/lrucache.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="172">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/main.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="294">
+                  <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#14#75#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lru_cache/lrucache.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="385">
+                  <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/container/list/list.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="164">
+                  <caret line="154" column="15" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,8 +83,8 @@
         <option value="$PROJECT_DIR$/node.go" />
         <option value="/usr/local/Cellar/go/1.12.5/libexec/src/container/heap/heap.go" />
         <option value="$PROJECT_DIR$/lrucache.go" />
-        <option value="$PROJECT_DIR$/lru_cache/lrucache.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/lru_cache/lrucache.go" />
       </list>
     </option>
   </component>
@@ -195,7 +211,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -223,10 +239,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/lru_cache/lrucache.go</url>
-          <line>31</line>
+          <url>file:///usr/local/Cellar/go/1.12.5/libexec/src/container/list/list.go</url>
+          <line>185</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -253,6 +269,26 @@ lc.list.root.next;</expression-string>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>lc.list.MoveToFront(elem)</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>elem</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>lc.list.root</expression-string>
         <language-id>go</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -274,26 +310,6 @@ lc.list.root.next;</expression-string>
       </expression>
       <expression>
         <expression-string>lc.list</expression-string>
-        <language-id>go</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>string.(elem.Value)</expression-string>
-        <language-id>go</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(elem.Value).string</expression-string>
-        <language-id>go</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>elem.Value</expression-string>
-        <language-id>go</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>*(*&quot;string&quot;)(17821744)</expression-string>
         <language-id>go</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -320,27 +336,38 @@ lc.list.root.next;</expression-string>
     <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/container/ring/ring.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1336" selection-start-line="1336" selection-end-line="1336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12.5/libexec/src/container/list/list.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+        <state relative-caret-position="164">
+          <caret line="154" column="15" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lru_cache/lrucache.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#19#47#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="172">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="294">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#14#75#0" expanded="true" />
           </folding>

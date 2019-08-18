@@ -7,7 +7,8 @@ import (
 
 type Cache interface {
 	Get(k interface{}) *list.Element
-	Put(k interface{}, v interface{})
+	Put(k , v interface{})
+	Print()
 }
 
 type LruCache struct {
@@ -27,19 +28,17 @@ func (lc *LruCache) Size() int {
 }
 
 func (lc *LruCache) Get(k interface{}) *list.Element {
-	elem, ok := lc.entries[k]
-	if ok {
+	if elem, ok := lc.entries[k]; ok {
 		lc.list.MoveToFront(elem) // needs fixing
 		return elem
 	}
 	return nil
 }
 
-func (lc *LruCache) Put(k  interface{}, v interface{}) {
-	elem, ok := lc.entries[k]
-	if ok {
+func (lc *LruCache) Put(k, v interface{}) {
+	if elem, ok := lc.entries[k]; ok {
 		elem.Value = v
-		lc.moveToHead(elem)
+		lc.list.MoveToFront(elem)
 	} else {
 		if lc.list.Len() >= lc.size {
 			e := lc.list.Back()
@@ -47,22 +46,16 @@ func (lc *LruCache) Put(k  interface{}, v interface{}) {
 		}
 		newElem := list.Element{Value: v}
 		lc.entries[k] = &newElem // add value to entries
-		elem = &newElem
-		lc.list.PushFront(elem)
+		lc.list.PushFront(&newElem)
 	}
 }
 
-func(lc *LruCache) moveToHead(elem *list.Element) {
-	lc.list.MoveToFront(elem)
-}
-
-func (lc *LruCache) PrintAll() {
+func (lc *LruCache) Print() {
 	i := 0
 	for e := lc.list.Front(); e != nil; e = e.Next() {
 		fmt.Printf("i = %d, e = %s \n",i, e.Value)
 		i += 1
 	}
-
 }
 
 

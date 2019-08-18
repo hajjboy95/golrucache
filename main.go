@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var cache  = lru_cache.New(4)
+	var cache lru_cache.Cache = lru_cache.New(4)
 	val := cache.Get("val")
 	fmt.Println("yiked " , val)
 
@@ -17,9 +17,15 @@ func main() {
 	cache.Put("val5", "hi5")
 	cache.Put("val6", "hi6")
 
-	cache.PrintAll()
+	cache.Print()
 	a := cache.Get("val4")
-	fmt.Println(a)
-	cache.PrintAll()
+	fmt.Println("val4 = " , a)
+
+	a = cache.Get("val6")
+	fmt.Println("val6 = " , a)
+
+	a = cache.Get("val5")
+	fmt.Println("val5 = " , a)
+	cache.Print()
 }
 
